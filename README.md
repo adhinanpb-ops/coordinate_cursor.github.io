@@ -60,27 +60,16 @@ Mouse movement, clicks, touchpad, scrolling, and Tab are all disabled.
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots
 ![Screenshot1](s1.png)
 ![Screenshot2](s2.png)
 # Diagrams
 ![Workflow](screenshots/workflow.png)
 *Workflow: X/Y inputs → single state object → fake pointer glides → `elementFromPoint(x, y)` → real `click`/`dblclick` dispatched → UI updates (success message / nav / form). Keyboard arrows handle focus (X → Y → ACTION), Enter cycles the action and fires.*
 
-For Hardware:
-# Schematic & Circuit
-Not applicable — software-only project, no circuit.
-
-# Build Photos
-Not applicable — software-only project, no hardware build.
-
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Demo shows: typing X/Y coordinates, navigating with ↓, pressing Enter to CLICK, the fake pointer gliding to the "Click me" button, the success message appearing, then locating START AGAIN through coordinates.*
-
-# Additional Demos
-[Add any extra demo materials/links]
+https://drive.google.com/file/d/1hO1yjo56kjA-FVlROVjsEqSrR_Iq5VFb/view?usp=sharing
 
 ## Team Contributions
 - **Gayos Paul (Lead):** Core concept, fake-pointer engine, coordinate state management, click/double-click dispatch logic.
