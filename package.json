@@ -1,0 +1,11 @@
+{
+  "name": "coordinate-cursor",
+  "version": "1.0.0",
+  "description": "A polished normal-looking bookshop webpage controlled exclusively by a coordinate-driven fake pointer (no physical mouse or touchpad). Single self-contained file — just open index.html.",
+  "main": "index.html",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
